@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_save"
+        app:showAsAction="never"
+        android:title="@string/save"/>
+    <item android:id="@+id/menu_finger"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/dactylogram"
+        android:title="@string/finger" />
+    <item android:id="@+id/menu_pwd"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:icon="@mipmap/pwd_locked"
+        android:title="@string/finger" />
+</menu>
