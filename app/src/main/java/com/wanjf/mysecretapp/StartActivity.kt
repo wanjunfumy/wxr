@@ -15,6 +15,7 @@ class StartActivity : MyApp() {
         super.onStart()
         val i = Intent(this, MainActivity().javaClass)
         startActivity(i)
+        finish()
     }
 
     override fun initListeners() {
