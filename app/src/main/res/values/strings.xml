@@ -57,4 +57,6 @@
     <string name="modify_wtf">改个锤子哦，手机指纹传感器都没得？</string>
     <string name="verify_pwd">验证密码</string>
     <string name="incorrect_pwd">密码错咯，重新输入</string>
+    <string name="no_data">没有数据</string>
+    <string name="load_more">加载更多</string>
 </resources>
