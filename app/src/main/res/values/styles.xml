@@ -18,4 +18,11 @@
         <item name="windowNoTitle">true</item>
         <item  name="android:windowBackground">@color/colorPrimary</item>
     </style>
+
+    <declare-styleable name="CornerImageView">
+        <attr name="border_width" format="dimension" />
+        <!--        不传入，这个默认是圆形-->
+        <attr name="corner" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
 </resources>
