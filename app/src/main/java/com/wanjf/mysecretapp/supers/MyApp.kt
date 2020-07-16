@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.wanjf.mysecretapp.R
-import com.wanjf.mysecretapp.tools.StatusBarUtil
+import com.wanjf.wxr.tools.StatusBarUtil
 
 abstract class MyApp: AppCompatActivity() {
 

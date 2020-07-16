@@ -9,8 +9,8 @@ import android.widget.Toast
 import com.wanjf.mysecretapp.App
 import com.wanjf.mysecretapp.R
 import com.wanjf.mysecretapp.SetPassword
-import com.wanjf.mysecretapp.myViews.secretEdit.SecretEditText
 import com.wanjf.mysecretapp.tools.AESCrypto
+import com.wanjf.wxr.views.secretEdit.SecretEditText
 
 class VerifyWithPwd {
     private constructor()

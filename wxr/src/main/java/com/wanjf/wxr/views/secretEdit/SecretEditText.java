@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.wanjf.mysecretapp.R;
+import com.wanjf.wxr.R;
 
 public class SecretEditText extends ConstraintLayout {
     private SingleEditText input_one;
@@ -23,8 +23,8 @@ public class SecretEditText extends ConstraintLayout {
         return onSecretPasswordListener;
     }
 
-    public void setOnSecretPasswordListener(OnSecretPasswordListener onSecretPasswordListener) {
-        this.onSecretPasswordListener = onSecretPasswordListener;
+    public void setOnSecretPasswordListener(OnSecretPasswordListener onSecretPasswordListene) {
+        onSecretPasswordListener = onSecretPasswordListene;
     }
 
     public SecretEditText(Context context) {

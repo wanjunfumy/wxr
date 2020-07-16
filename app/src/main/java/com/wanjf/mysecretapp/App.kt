@@ -6,7 +6,6 @@ import com.wanjf.mysecretapp.storage.DBBuilder
 import com.wanjf.mysecretapp.storage.bean.AccountData
 import com.wanjf.mysecretapp.storage.database.DatabaseAdapter
 import com.wanjf.mysecretapp.tools.AESCrypto
-import kotlinx.coroutines.GlobalScope
 
 class App : Application() {
     var account: List<AccountData?>? = null

@@ -77,7 +77,6 @@ public class BiometricPromptApi28 implements IBiometricPromptImpl {
     }
 
     @RequiresApi(Build.VERSION_CODES.P)
-    @Override
     public void authenticate(@Nullable CancellationSignal cancel,
                              @NonNull BiometricPromptManager.OnBiometricIdentifyCallback callback) {
         mManagerIdentifyCallback = callback;

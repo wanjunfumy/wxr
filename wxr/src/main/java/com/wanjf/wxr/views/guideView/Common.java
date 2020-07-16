@@ -13,7 +13,7 @@ class Common {
   /**
    * 设置Component
    */
-  static View componentToView(LayoutInflater inflater, Component c) {
+  public static View componentToView(LayoutInflater inflater, Component c) {
     View view = c.getView(inflater);
     final MaskView.LayoutParams lp = new MaskView.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
         ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -28,7 +28,7 @@ class Common {
   /**
    * Rect在屏幕上去掉状态栏高度的绝对位置
    */
-  static Rect getViewAbsRect(View view, int parentX, int parentY) {
+  public static Rect getViewAbsRect(View view, int parentX, int parentY) {
     int[] loc = new int[2];
     view.getLocationInWindow(loc);
     Rect rect = new Rect();
